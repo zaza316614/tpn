@@ -1,0 +1,41 @@
+{
+  "name": "tpn-subnet-validator",
+  "version": "0.1.77",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "CI_MODE=true vitest --silent=false watch",
+    "test:ci": "vitest run --silent=false",
+    "lint": "eslint --fix modules routes",
+    "dev": "nodemon app.js"
+  },
+  "author": "Mentor <mentor@palokaj.co> (http://github.com/actuallymentor)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "geoip-lite": "^1.4.10",
+    "ip2location-nodejs": "^9.6.3",
+    "maxmind": "^4.3.28",
+    "mentie": "^0.3.17",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.16.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "unzipper": "^0.12.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "airier": "^0.0.9",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.10",
+    "vitest": "^2.1.9"
+  }
+}

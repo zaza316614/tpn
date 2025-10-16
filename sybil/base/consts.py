@@ -1,0 +1,2 @@
+BURN_UID = 0
+BURN_WEIGHT = 0.8

@@ -1,0 +1,10 @@
+bittensor==9.9.0
+bittensor-cli=9.13.1
+starlette>=0.30.0
+pydantic>=2
+rich>=13
+pytest>=8
+torch>=2
+numpy>=1
+setuptools>=68
+wandb==0.19.6
