@@ -1,5 +1,5 @@
 bittensor==9.9.0
-bittensor-cli=9.13.1
+bittensor-cli==9.13.1
 starlette>=0.30.0
 pydantic>=2
 rich>=13
